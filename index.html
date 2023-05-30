@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
+</head>
+<body style="background-color: whitesmoke;">
+    <div class="card mb-3 w-75 mx-auto mt-5 bg-text-success " style="height: 380px;border-radius: 30px; ">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./images/grade pic.jpeg" class="img-fluid rounded-start" alt="..." style="height: 380px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body mx-auto">
+              <h5 class="card-title" style="color:khaki; background-color: orangered;">GRADING SYSTEM</h5>
+              <p class="card-text">
+                 Every letter grade denotes the numerical performance of a student by a number. Students can further convert the grade into a GPA. Here is a  basic breakdown of the meaning of each letter in the american grading system. 
+
+A – Excellent
+B – Good
+C – Average
+D – Below-average
+F – Fail
+              </p>
+              
+            </div>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control mt-3 w-50" id="grade" placeholder="Input your score here!" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+
+                <button type="button" class="btn btn-primary btn-lg mt-3 mb-5 ms-5 " onclick="CheckGrade()" >CHECK GRADE</button>
+                <div id="display" class="text-danger w-50 mx-auto"></div>
+              
+          </div>
+          
+        </div>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
